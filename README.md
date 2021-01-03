@@ -1,9 +1,11 @@
-CRUD - JDBC (PostgreSQL)
+# CRUD - JDBC (PostgreSQL)
 
-Projeto simples para criação de um CRUD em Java utilizando JDBC para comunicação com o banco de dados.
+##### Projeto simples para criação de um CRUD em Java utilizando JDBC para comunicação com o banco de dados.
+#
+##### TABELA SQL:
 
-TABELA SQL:
-
+#
+```sql 
 CREATE TABLE public.pessoa
 (
 cpf integer NOT NULL,
@@ -14,4 +16,4 @@ senioridade varchar(30) not null,
 tecnologia varchar(100) not null,
 experiencia text,
 PRIMARY KEY (cpf)
-)
+)```
