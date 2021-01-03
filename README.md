@@ -16,4 +16,4 @@ senioridade varchar(30) not null,
 tecnologia varchar(100) not null,
 experiencia text,
 PRIMARY KEY (cpf)
-)```
+)
